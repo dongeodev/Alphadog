@@ -19,7 +19,7 @@ function validation (e){
     $li3.addEventListener('click',toggleShow)
     $li4.addEventListener('click', toggleShow)
   }else{
-    buttonMenu.removeEventListener('click', toggleShow)
+    $buttonMenu.removeEventListener('click', toggleShow)
     $li1.removeEventListener('click', toggleShow)
     $li2.removeEventListener('click', toggleShow)
     $li3.removeEventListener('click',toggleShow)
